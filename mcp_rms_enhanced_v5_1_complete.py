@@ -163,9 +163,20 @@ class Machine:
     def can_process_operation(self, operation: Operation) -> bool:
         return self.current_config.can_process(operation.required_capability)
     
+    def estimate_processing_time(
+        self,
+        operation: Operation,
+        config: Optional[Configuration] = None
+    ) -> float:
+        """Estimate processing time for an operation on a specific configuration."""
+
+        cfg = config if config is not None else self.current_config
+        speed = max(cfg.get_processing_speed(operation.required_capability), 1e-6)
+        reliability = max(self.reliability, 1e-6)
+        return operation.nominal_processing_time / (speed * reliability)
+
     def get_processing_time(self, operation: Operation) -> float:
-        speed = self.current_config.get_processing_speed(operation.required_capability)
-        return operation.nominal_processing_time / (speed * self.reliability)
+        return self.estimate_processing_time(operation, self.current_config)
     
     def get_reconfiguration_time(self, target_config_id: int) -> float:
         if target_config_id == self.current_config.config_id:
@@ -478,7 +489,9 @@ class MCPRMSEnvironment:
         for machine in self.machines:
             for config in machine.available_configs:
                 if config.can_process(capability):
-                    processing_time = machine.get_processing_time(operation_info['operation'])
+                    processing_time = machine.estimate_processing_time(
+                        operation_info['operation'], config
+                    )
                     reconfig_time = machine.get_reconfiguration_time(config.config_id)
                     reconfig_cost = config.setup_cost_from.get(machine.current_config.config_id, 100.0) if reconfig_time > 0 else 0.0
                     
@@ -562,8 +575,15 @@ class MCPRMSEnvironment:
             if not machine.can_process_operation(operation):
                 return {'success': False, 'error': 'Machine cannot process operation'}
             
-            start_time = machine_option['earliest_start']
-            processing_time = machine_option['processing_time']
+            proposed_start = machine_option.get('earliest_start', self.current_time)
+            available_before_assignment = machine.next_available_time
+            start_time = max(
+                proposed_start,
+                available_before_assignment,
+                self.current_time,
+                job.arrival_time
+            )
+            processing_time = machine.get_processing_time(operation)
             completion_time = start_time + processing_time
             
             operation.state = OperationState.COMPLETED
@@ -574,8 +594,8 @@ class MCPRMSEnvironment:
             operation.actual_processing_time = processing_time
             operation.waiting_time = max(0, start_time - max(self.current_time, job.arrival_time))
             
-            if start_time > machine.next_available_time:
-                machine.total_idle_time += (start_time - machine.next_available_time)
+            if start_time > available_before_assignment:
+                machine.total_idle_time += (start_time - available_before_assignment)
             
             machine.state = MachineState.BUSY
             machine.next_available_time = completion_time
@@ -631,7 +651,8 @@ class MCPRMSEnvironment:
                 'completion_time': completion_time,
                 'processing_time': processing_time,
                 'waiting_time': operation.waiting_time,
-                'quality_achieved': machine_option['quality_score']
+                'quality_achieved': machine_option['quality_score'],
+                'reconfig_time': machine_option.get('reconfig_time', 0.0)
             }
             
         except Exception as e:
@@ -1320,10 +1341,13 @@ class EnhancedMCPScheduler:
                 'machine_id': machine_id,
                 'config_id': target_config,
                 'heuristic_score': score,
-                'processing_time': machine_option['processing_time'],
+                'processing_time': assign_result['processing_time'],
+                'start_time': assign_result['start_time'],
+                'completion_time': assign_result['completion_time'],
+                'waiting_time': assign_result['waiting_time'],
                 'energy_rate': machine_option['energy_rate'],
-                'setup_time': machine_option['reconfig_time'],
-                'quality_achieved': machine_option['quality_score'],
+                'setup_time': assign_result.get('reconfig_time', machine_option['reconfig_time']),
+                'quality_achieved': assign_result['quality_achieved'],
                 'total_cost': machine_option['total_cost'],
                 'heuristic': self.heuristic
             })
