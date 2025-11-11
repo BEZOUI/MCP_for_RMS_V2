@@ -1,0 +1,273 @@
+{
+  "timestamp": "2025-11-11T14:12:30.810660",
+  "total_algorithms_tested": 16,
+  "mcp_algorithms": 4,
+  "validation_results": {
+    "completeness": {
+      "MCP_INTELLIGENT_V2": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "MCP_ADAPTIVE_V2": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "MCP_ENERGY_OPTIMIZED": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "MCP_BOTTLENECK_AWARE": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "EDD": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "SPT": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "FIFO": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "LPT": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "CRITICAL_RATIO": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "APPARENT_TARDINESS_COST": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "COVERT": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "SLACK_PER_OPERATION": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "WEIGHTED_SPT": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "LEAST_SLACK": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "MODIFIED_DUE_DATE": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      },
+      "DYNAMIC_SLACK": {
+        "completion_rate": 1.0,
+        "is_complete": true
+      }
+    }
+  },
+  "statistical_analysis": {
+    "completion_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "utilization": {
+      "mean": 0.2881591727299687,
+      "std": 0.049770994209535166,
+      "min": 0.23457606723022376,
+      "max": 0.40351503854547094
+    },
+    "makespan": {
+      "mean": 1777.341477948648,
+      "std": 282.23759304175076,
+      "min": 1170.7856623730522,
+      "max": 2102.3907270960517
+    },
+    "total_energy": {
+      "mean": 59610.35944819957,
+      "std": 2475.5967799002497,
+      "min": 56841.69247542851,
+      "max": 65572.53386090403
+    }
+  },
+  "gantt_integrity": {
+    "total_algorithms": 16,
+    "valid_schedules": 16,
+    "total_overlaps": 0,
+    "integrity_scores": {
+      "MCP_INTELLIGENT_V2": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "MCP_ADAPTIVE_V2": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "MCP_ENERGY_OPTIMIZED": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "MCP_BOTTLENECK_AWARE": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "EDD": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "SPT": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "FIFO": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "LPT": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "CRITICAL_RATIO": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "APPARENT_TARDINESS_COST": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "COVERT": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "SLACK_PER_OPERATION": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "WEIGHTED_SPT": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "LEAST_SLACK": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "MODIFIED_DUE_DATE": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      },
+      "DYNAMIC_SLACK": {
+        "valid": true,
+        "overlaps": 0,
+        "score": 100
+      }
+    },
+    "validation_rate": 100.0
+  },
+  "performance_ranking": [
+    {
+      "heuristic": "MCP_BOTTLENECK_AWARE",
+      "composite_score": 0.5210545115636414,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "MCP_ENERGY_OPTIMIZED",
+      "composite_score": 0.5207987937297265,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "LPT",
+      "composite_score": 0.497780908808792,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "MODIFIED_DUE_DATE",
+      "composite_score": 0.48996904187431534,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "MCP_INTELLIGENT_V2",
+      "composite_score": 0.48775575027760276,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "MCP_ADAPTIVE_V2",
+      "composite_score": 0.48775575027760276,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "WEIGHTED_SPT",
+      "composite_score": 0.4850872500270884,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "FIFO",
+      "composite_score": 0.4846283847372855,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "CRITICAL_RATIO",
+      "composite_score": 0.48354151965306363,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "COVERT",
+      "composite_score": 0.4811821939425943,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "EDD",
+      "composite_score": 0.47988369583191337,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "APPARENT_TARDINESS_COST",
+      "composite_score": 0.47668726908743386,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "SLACK_PER_OPERATION",
+      "composite_score": 0.4723130371303447,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "LEAST_SLACK",
+      "composite_score": 0.4721765509966892,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "DYNAMIC_SLACK",
+      "composite_score": 0.4721765509966892,
+      "completion_rate": 1.0
+    },
+    {
+      "heuristic": "SPT",
+      "composite_score": 0.4703728201690671,
+      "completion_rate": 1.0
+    }
+  ],
+  "recommendations": [
+    "\ud83c\udfc6 Best: MCP_INTELLIGENT_V2 with 100.0% completion",
+    "\u2705 All schedules valid with zero overlaps"
+  ]
+}

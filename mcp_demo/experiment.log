@@ -1,0 +1,1712 @@
+14:11:53 | INFO    | Experiment                | ================================================================================
+14:11:53 | INFO    | Experiment                | 🚀 MCP-RMS Enhanced v5.1 - Improved MCP Intelligence
+14:11:53 | INFO    | Experiment                | ================================================================================
+14:11:53 | INFO    | Experiment                | 🏭 Initializing environment: 8 machines, 40 jobs
+14:11:53 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:53 | INFO    | MCPRMSEnvironment         | Generated 40 jobs with 224 operations
+14:11:53 | INFO    | Experiment                | 
+============================================================
+🧠 Testing MCP_INTELLIGENT_V2
+============================================================
+14:11:53 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | 🧠 MCP_INTELLIGENT_V2: Solving 40 jobs, 224 operations
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:53 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    6 | Time:   13.11 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    7 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    8 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter    9 | Time:   27.87 | Jobs:  1/40 | Available:  4 | Scheduled: 6/224
+14:11:53 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter   10 | Time:   27.87 | Jobs:  1/40 | Available:  3 | Scheduled: 7/224
+14:11:53 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:53 | INFO    | MCPRMSEnvironment         | Job 8 completed at 254.98
+14:11:53 | INFO    | MCPRMSEnvironment         | Job 4 completed at 253.57
+14:11:53 | INFO    | MCPRMSEnvironment         | Job 21 completed at 284.35
+14:11:53 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:53 | INFO    | MCPRMSEnvironment         | Job 9 completed at 292.98
+14:11:53 | INFO    | MCPRMSEnvironment         | Job 5 completed at 309.15
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 25 completed at 399.31
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 17 completed at 469.70
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 11 completed at 530.56
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 22 completed at 547.93
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 19 completed at 522.94
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter  100 | Time:  583.09 | Jobs: 11/40 | Available: 40 | Scheduled: 97/224
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 36 completed at 726.86
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 31 completed at 726.68
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 26 completed at 730.44
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 15 completed at 783.49
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 13 completed at 789.78
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 2 completed at 789.16
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 23 completed at 834.54
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 28 completed at 925.14
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 32 completed at 959.87
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1058.17
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 33 completed at 1075.53
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 24 completed at 1145.18
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1171.71
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 10 completed at 1179.28
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 20 completed at 1174.48
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1199.17
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1222.73
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1239.46
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1298.87
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1346.31
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1353.69
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1380.52
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | Iter  200 | Time: 1395.46 | Jobs: 33/40 | Available:  7 | Scheduled: 197/224
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1432.14
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1465.66
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1499.87
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 12 completed at 1635.83
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1654.76
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1687.99
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1717.63
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | ✅ All jobs completed!
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_INTELLIGENT_V2] | ✅ MCP_INTELLIGENT_V2 COMPLETED: 224/224 ops (100.0%) in 0.69s
+14:11:54 | INFO    | Experiment                | ✅ MCP_INTELLIGENT_V2: 100.0% completion, 29.3% utilization
+14:11:54 | INFO    | Experiment                | 
+============================================================
+🧠 Testing MCP_ADAPTIVE_V2
+============================================================
+14:11:54 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | 🧠 MCP_ADAPTIVE_V2: Solving 40 jobs, 224 operations
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    6 | Time:   13.11 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    7 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    8 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter    9 | Time:   27.87 | Jobs:  1/40 | Available:  4 | Scheduled: 6/224
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter   10 | Time:   27.87 | Jobs:  1/40 | Available:  3 | Scheduled: 7/224
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 8 completed at 254.98
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 4 completed at 253.57
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 21 completed at 284.35
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 9 completed at 292.98
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 5 completed at 309.15
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 25 completed at 399.31
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 17 completed at 469.70
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 11 completed at 530.56
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 22 completed at 547.93
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 19 completed at 522.94
+14:11:54 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter  100 | Time:  583.09 | Jobs: 11/40 | Available: 40 | Scheduled: 97/224
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 36 completed at 726.86
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 31 completed at 726.68
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 26 completed at 730.44
+14:11:54 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 15 completed at 783.49
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 13 completed at 789.78
+14:11:54 | INFO    | MCPRMSEnvironment         | Job 2 completed at 789.16
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 834.54
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 925.14
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 959.87
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1058.17
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 1075.53
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 1145.18
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1171.71
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 1179.28
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 1174.48
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1199.17
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1222.73
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1239.46
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1298.87
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1346.31
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1353.69
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1380.52
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | Iter  200 | Time: 1395.46 | Jobs: 33/40 | Available:  7 | Scheduled: 197/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1432.14
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1465.66
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1499.87
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 1635.83
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1654.76
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1687.99
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1717.63
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ADAPTIVE_V2] | ✅ MCP_ADAPTIVE_V2 COMPLETED: 224/224 ops (100.0%) in 0.68s
+14:11:55 | INFO    | Experiment                | ✅ MCP_ADAPTIVE_V2: 100.0% completion, 29.3% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing MCP_ENERGY_OPTIMIZED
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | 🧠 MCP_ENERGY_OPTIMIZED: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    4 | Time:   22.94 | Jobs:  0/40 | Available:  4 | Scheduled: 3/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    5 | Time:   22.94 | Jobs:  0/40 | Available:  3 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    6 | Time:   22.94 | Jobs:  0/40 | Available:  3 | Scheduled: 5/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    7 | Time:   33.22 | Jobs:  0/40 | Available: 10 | Scheduled: 6/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    8 | Time:   33.22 | Jobs:  0/40 | Available: 10 | Scheduled: 7/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter    9 | Time:   33.22 | Jobs:  0/40 | Available:  9 | Scheduled: 8/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter   10 | Time:   58.16 | Jobs:  0/40 | Available: 10 | Scheduled: 9/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 223.91
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 231.64
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 244.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 299.39
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 298.80
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 388.84
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 389.02
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 413.20
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 446.31
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 434.82
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 465.50
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter  100 | Time:  448.82 | Jobs: 11/40 | Available: 39 | Scheduled: 99/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 499.88
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 491.75
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 522.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 534.25
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 560.93
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 565.87
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 556.83
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 650.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 662.90
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 677.57
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 686.61
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 700.95
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 736.13
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 769.88
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 899.21
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 925.26
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 908.85
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 913.86
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 931.30
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 961.20
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 944.95
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 964.02
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1034.67
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | Iter  200 | Time: 1006.31 | Jobs: 34/40 | Available:  7 | Scheduled: 199/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1071.91
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1061.32
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1079.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1125.44
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1125.42
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1170.79
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_ENERGY_OPTIMIZED] | ✅ MCP_ENERGY_OPTIMIZED COMPLETED: 224/224 ops (100.0%) in 0.18s
+14:11:55 | INFO    | Experiment                | ✅ MCP_ENERGY_OPTIMIZED: 100.0% completion, 40.3% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing MCP_BOTTLENECK_AWARE
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | 🧠 MCP_BOTTLENECK_AWARE: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    4 | Time:   22.94 | Jobs:  0/40 | Available:  4 | Scheduled: 3/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    5 | Time:   22.94 | Jobs:  0/40 | Available:  3 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    6 | Time:   22.94 | Jobs:  0/40 | Available:  3 | Scheduled: 5/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    7 | Time:   33.22 | Jobs:  0/40 | Available: 10 | Scheduled: 6/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    8 | Time:   33.22 | Jobs:  0/40 | Available: 10 | Scheduled: 7/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter    9 | Time:   33.22 | Jobs:  0/40 | Available:  9 | Scheduled: 8/224
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter   10 | Time:   58.16 | Jobs:  0/40 | Available: 10 | Scheduled: 9/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 223.54
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 259.10
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 284.97
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 309.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 326.11
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 393.99
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 402.53
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 437.78
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 433.02
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 456.52
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 466.08
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter  100 | Time:  451.85 | Jobs: 11/40 | Available: 38 | Scheduled: 99/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 502.45
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 493.73
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 520.41
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 566.02
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 551.80
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 638.65
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 684.28
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 684.74
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 716.95
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 711.35
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 732.12
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 764.46
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 833.82
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 851.02
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 906.85
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 887.62
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 911.87
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 936.75
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 920.50
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 950.73
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1021.38
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 1006.14
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | Iter  200 | Time: 1006.14 | Jobs: 33/40 | Available:  7 | Scheduled: 199/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1027.82
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1031.93
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 1054.38
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1075.18
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1078.60
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1125.67
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1171.02
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[MCP_BOTTLENECK_AWARE] | ✅ MCP_BOTTLENECK_AWARE COMPLETED: 224/224 ops (100.0%) in 0.19s
+14:11:55 | INFO    | Experiment                | ✅ MCP_BOTTLENECK_AWARE: 100.0% completion, 40.4% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing EDD
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | 🧠 EDD: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 82.60
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 101.24
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 153.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 206.80
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 220.47
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 284.53
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 286.76
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 327.43
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 332.97
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 370.06
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 404.57
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 446.78
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 473.74
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 496.18
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 601.76
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 625.72
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 735.01
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter  100 | Time:  791.36 | Jobs: 18/40 | Available: 44 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 908.65
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 954.21
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1002.50
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1005.86
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1091.98
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1144.67
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 1167.77
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1194.68
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1230.09
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1221.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1262.59
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1331.51
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1363.22
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1435.56
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1482.63
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1526.78
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1551.44
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | Iter  200 | Time: 1543.24 | Jobs: 35/40 | Available:  7 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1604.06
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1633.25
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1707.26
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1805.63
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1854.65
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[EDD] | ✅ EDD COMPLETED: 224/224 ops (100.0%) in 0.06s
+14:11:55 | INFO    | Experiment                | ✅ EDD: 100.0% completion, 26.6% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing SPT
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | 🧠 SPT: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 421.47
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 697.07
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 763.53
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter  100 | Time:  814.39 | Jobs:  4/40 | Available: 44 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 877.21
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 921.80
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 962.03
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 983.07
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1065.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1083.32
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1217.22
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 1261.33
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1281.04
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1302.89
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 1395.42
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 1429.40
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 1461.45
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 1561.10
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 1606.91
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 1596.80
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1630.13
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1677.01
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 1678.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1700.33
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 1686.03
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1714.24
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 1708.12
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1728.52
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | Iter  200 | Time: 1701.63 | Jobs: 28/40 | Available: 13 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1814.03
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1831.39
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1859.18
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1898.02
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1942.27
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 2006.18
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 2012.38
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 2050.10
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 2077.06
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 2056.08
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 2082.05
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 2102.39
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[SPT] | ✅ SPT COMPLETED: 224/224 ops (100.0%) in 0.04s
+14:11:55 | INFO    | Experiment                | ✅ SPT: 100.0% completion, 23.5% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing FIFO
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | 🧠 FIFO: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 92.53
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 117.42
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 140.74
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 186.64
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 242.57
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 307.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 353.75
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 372.48
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 456.00
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 535.16
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 591.01
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 609.03
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 711.82
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 777.28
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 839.73
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter  100 | Time:  827.98 | Jobs: 16/40 | Available: 39 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 881.09
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 898.47
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 937.07
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 1059.01
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 1092.75
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 1106.81
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 1129.60
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1168.07
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 1186.54
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 1174.99
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1230.00
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1295.10
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1355.57
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1400.85
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1456.55
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 1514.42
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1603.52
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 1602.74
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1627.22
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | Iter  200 | Time: 1596.62 | Jobs: 35/40 | Available:  7 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1647.82
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 1669.77
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1700.18
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1714.71
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1782.45
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[FIFO] | ✅ FIFO COMPLETED: 224/224 ops (100.0%) in 0.03s
+14:11:55 | INFO    | Experiment                | ✅ FIFO: 100.0% completion, 28.2% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing LPT
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | 🧠 LPT: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter   10 | Time:   27.87 | Jobs:  1/40 | Available:  3 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 174.31
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 531.66
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 552.03
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 671.13
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 727.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 747.91
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter  100 | Time:  727.36 | Jobs:  7/40 | Available: 39 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 797.73
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 813.62
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 815.91
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 816.54
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 843.18
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 829.19
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 862.23
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 894.59
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 894.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 927.45
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 911.29
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 955.06
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 1060.53
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1179.25
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 1159.13
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1181.93
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1209.65
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1226.95
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1232.55
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 1261.82
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 1304.77
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1385.87
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1377.15
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1375.52
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | Iter  200 | Time: 1368.43 | Jobs: 31/40 | Available: 10 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1418.46
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 1411.00
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 1446.07
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1433.73
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 1449.22
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1489.42
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 1492.64
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 1478.99
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 1481.49
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[LPT] | ✅ LPT COMPLETED: 224/224 ops (100.0%) in 0.03s
+14:11:55 | INFO    | Experiment                | ✅ LPT: 100.0% completion, 32.6% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing CRITICAL_RATIO
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | 🧠 CRITICAL_RATIO: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 168.19
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 176.09
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 242.10
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 301.06
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 355.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 372.83
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 433.48
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 438.56
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 466.45
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 468.35
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 488.07
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 534.00
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 567.58
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 590.87
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 613.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 643.74
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 664.67
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter  100 | Time:  697.23 | Jobs: 18/40 | Available: 46 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 740.01
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 794.78
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 846.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 906.80
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 984.46
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 1075.24
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1135.06
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1139.22
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1158.85
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1234.97
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1276.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1346.69
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1430.47
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1462.02
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1497.98
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1589.12
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1619.09
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | Iter  200 | Time: 1630.85 | Jobs: 35/40 | Available: 10 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1667.29
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1684.69
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1737.53
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1781.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1828.18
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[CRITICAL_RATIO] | ✅ CRITICAL_RATIO COMPLETED: 224/224 ops (100.0%) in 0.03s
+14:11:55 | INFO    | Experiment                | ✅ CRITICAL_RATIO: 100.0% completion, 27.8% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing APPARENT_TARDINESS_COST
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | 🧠 APPARENT_TARDINESS_COST: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 82.60
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 101.24
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 143.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 193.65
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 246.42
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 307.12
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 382.68
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 450.49
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 497.50
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 591.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 632.01
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 680.56
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter  100 | Time:  733.21 | Jobs: 13/40 | Available: 41 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 912.49
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1111.80
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1135.87
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1184.61
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 1203.57
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 1206.52
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1217.87
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1259.52
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1275.73
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1361.15
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1388.27
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1454.12
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 1454.39
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1541.27
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 1575.07
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1637.74
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1687.97
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | Iter  200 | Time: 1701.30 | Jobs: 30/40 | Available: 11 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1717.04
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 1753.83
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1762.83
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1821.43
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1839.12
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1868.60
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 1897.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1925.49
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1938.00
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 1950.87
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[APPARENT_TARDINESS_COST] | ✅ APPARENT_TARDINESS_COST COMPLETED: 224/224 ops (100.0%) in 0.04s
+14:11:55 | INFO    | Experiment                | ✅ APPARENT_TARDINESS_COST: 100.0% completion, 25.6% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing COVERT
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | 🧠 COVERT: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 164.86
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 541.25
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 501.55
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 516.26
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 664.32
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 670.10
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 751.73
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 746.99
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 849.64
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 854.24
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 868.31
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 893.83
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter  100 | Time:  867.37 | Jobs: 13/40 | Available: 35 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 900.16
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 945.83
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 1003.75
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 1054.67
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 1078.63
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 1155.46
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1186.60
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1276.23
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 1334.67
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 1400.95
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 1474.58
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 1462.40
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 1494.79
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1527.89
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 1536.15
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 1527.48
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1566.96
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1585.58
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1647.71
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1653.01
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 1704.20
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | Iter  200 | Time: 1672.97 | Jobs: 34/40 | Available:  6 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1733.85
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 1798.24
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1825.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 1821.36
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1842.70
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1872.47
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[COVERT] | ✅ COVERT COMPLETED: 224/224 ops (100.0%) in 0.03s
+14:11:55 | INFO    | Experiment                | ✅ COVERT: 100.0% completion, 27.1% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing SLACK_PER_OPERATION
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | 🧠 SLACK_PER_OPERATION: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 4 completed at 197.43
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 8 completed at 211.23
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 251.66
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 9 completed at 305.46
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 373.20
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 479.68
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 20 completed at 479.06
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 507.39
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 528.85
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 558.51
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 10 completed at 577.68
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 24 completed at 632.67
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 12 completed at 676.69
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 706.32
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 34 completed at 719.41
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 782.98
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 857.52
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 31 completed at 883.56
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter  100 | Time:  852.53 | Jobs: 19/40 | Available: 41 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 2 completed at 959.61
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1025.29
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 1071.58
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1146.08
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1204.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1278.09
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1350.77
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1367.04
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1449.51
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1508.74
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1537.33
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1574.59
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1593.41
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 1608.59
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1656.76
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1705.87
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | Iter  200 | Time: 1734.84 | Jobs: 35/40 | Available: 10 | Scheduled: 195/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1764.55
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1860.15
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1959.91
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 7 completed at 2050.82
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 18 completed at 2100.57
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | ✅ All jobs completed!
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:55 | INFO    | EnhancedMCPScheduler[SLACK_PER_OPERATION] | ✅ SLACK_PER_OPERATION COMPLETED: 224/224 ops (100.0%) in 0.04s
+14:11:55 | INFO    | Experiment                | ✅ SLACK_PER_OPERATION: 100.0% completion, 24.1% utilization
+14:11:55 | INFO    | Experiment                | 
+============================================================
+🧠 Testing WEIGHTED_SPT
+============================================================
+14:11:55 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | 🧠 WEIGHTED_SPT: Solving 40 jobs, 224 operations
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 33 completed at 395.20
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 19 completed at 436.28
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 36 completed at 458.94
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 38 completed at 559.41
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 27 completed at 617.11
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 5 completed at 649.09
+14:11:55 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter  100 | Time:  632.78 | Jobs:  7/40 | Available: 41 | Scheduled: 95/224
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 22 completed at 681.65
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 32 completed at 747.83
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 21 completed at 773.97
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 30 completed at 810.41
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 25 completed at 835.66
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 29 completed at 894.95
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 17 completed at 948.34
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 13 completed at 981.00
+14:11:55 | INFO    | MCPRMSEnvironment         | Job 11 completed at 974.43
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1048.62
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 35 completed at 1067.70
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1149.85
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1262.41
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1291.82
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1308.39
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 31 completed at 1317.49
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1349.20
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 10 completed at 1370.62
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 8 completed at 1378.11
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1396.00
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1478.97
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1529.35
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 20 completed at 1598.58
+14:11:56 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | Iter  200 | Time: 1608.43 | Jobs: 30/40 | Available: 12 | Scheduled: 195/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1633.59
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1675.95
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1691.12
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1697.45
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 12 completed at 1727.82
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 9 completed at 1728.46
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1728.05
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1764.25
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 24 completed at 1771.62
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 4 completed at 1792.99
+14:11:56 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | ✅ All jobs completed!
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | EnhancedMCPScheduler[WEIGHTED_SPT] | ✅ WEIGHTED_SPT COMPLETED: 224/224 ops (100.0%) in 0.07s
+14:11:56 | INFO    | Experiment                | ✅ WEIGHTED_SPT: 100.0% completion, 28.4% utilization
+14:11:56 | INFO    | Experiment                | 
+============================================================
+🧠 Testing LEAST_SLACK
+============================================================
+14:11:56 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | 🧠 LEAST_SLACK: Solving 40 jobs, 224 operations
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 4 completed at 82.60
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 8 completed at 103.29
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 5 completed at 221.74
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 9 completed at 221.64
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 21 completed at 270.85
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 25 completed at 354.09
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 11 completed at 407.83
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 19 completed at 409.31
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 20 completed at 462.68
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 17 completed at 490.88
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 24 completed at 624.73
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 10 completed at 697.95
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter  100 | Time:  726.82 | Jobs: 13/40 | Available: 48 | Scheduled: 95/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 22 completed at 749.97
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 33 completed at 777.65
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 12 completed at 818.17
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 31 completed at 876.60
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 13 completed at 971.13
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1002.62
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1035.13
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1043.55
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1098.17
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1176.29
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1253.47
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 36 completed at 1289.97
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1419.13
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1526.34
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1639.24
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1671.20
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1640.99
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1654.79
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1668.50
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1754.39
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1803.11
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | Iter  200 | Time: 1791.73 | Jobs: 34/40 | Available:  8 | Scheduled: 195/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1816.84
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1931.41
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 38 completed at 2005.04
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 35 completed at 2037.36
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 7 completed at 2042.16
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 18 completed at 2084.50
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | ✅ All jobs completed!
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | EnhancedMCPScheduler[LEAST_SLACK] | ✅ LEAST_SLACK COMPLETED: 224/224 ops (100.0%) in 0.03s
+14:11:56 | INFO    | Experiment                | ✅ LEAST_SLACK: 100.0% completion, 24.1% utilization
+14:11:56 | INFO    | Experiment                | 
+============================================================
+🧠 Testing MODIFIED_DUE_DATE
+============================================================
+14:11:56 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | 🧠 MODIFIED_DUE_DATE: Solving 40 jobs, 224 operations
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 4 completed at 82.60
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 8 completed at 101.24
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 5 completed at 153.36
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 9 completed at 206.80
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 21 completed at 220.47
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 11 completed at 284.53
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 25 completed at 286.76
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 19 completed at 327.43
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 17 completed at 332.97
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 24 completed at 357.66
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 20 completed at 382.67
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 22 completed at 385.84
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 33 completed at 399.03
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 31 completed at 439.52
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 12 completed at 495.05
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 34 completed at 533.41
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 30 completed at 551.49
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 36 completed at 638.90
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter  100 | Time:  651.86 | Jobs: 19/40 | Available: 40 | Scheduled: 95/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 27 completed at 696.59
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 3 completed at 725.42
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 1 completed at 781.25
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 29 completed at 809.16
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 14 completed at 861.98
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 26 completed at 882.17
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 38 completed at 905.51
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 37 completed at 946.66
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 35 completed at 986.25
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1063.67
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1069.33
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 10 completed at 1104.57
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1165.40
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1259.33
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1346.03
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 13 completed at 1422.15
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | Iter  200 | Time: 1417.11 | Jobs: 35/40 | Available: 11 | Scheduled: 195/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1458.58
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1543.52
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1627.18
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 7 completed at 1674.06
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 18 completed at 1714.18
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | ✅ All jobs completed!
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | EnhancedMCPScheduler[MODIFIED_DUE_DATE] | ✅ MODIFIED_DUE_DATE COMPLETED: 224/224 ops (100.0%) in 0.03s
+14:11:56 | INFO    | Experiment                | ✅ MODIFIED_DUE_DATE: 100.0% completion, 30.0% utilization
+14:11:56 | INFO    | Experiment                | 
+============================================================
+🧠 Testing DYNAMIC_SLACK
+============================================================
+14:11:56 | INFO    | MCPRMSEnvironment         | Initialized 8 machines with 4 configurations each
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | 🧠 DYNAMIC_SLACK: Solving 40 jobs, 224 operations
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    1 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 0/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    2 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 1/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    3 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 2/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    4 | Time:    0.00 | Jobs:  0/40 | Available:  1 | Scheduled: 3/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 0 completed at 43.35
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    5 | Time:    0.00 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    6 | Time:    9.17 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    7 | Time:   14.15 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    8 | Time:   18.82 | Jobs:  1/40 | Available:  0 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter    9 | Time:   19.32 | Jobs:  1/40 | Available:  2 | Scheduled: 4/224
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter   10 | Time:   19.32 | Jobs:  1/40 | Available:  1 | Scheduled: 5/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 4 completed at 82.60
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 8 completed at 103.29
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 5 completed at 221.74
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 9 completed at 221.64
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 21 completed at 270.85
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 25 completed at 354.09
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 11 completed at 407.83
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 19 completed at 409.31
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 20 completed at 462.68
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 17 completed at 490.88
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 24 completed at 624.73
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 10 completed at 697.95
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter  100 | Time:  726.82 | Jobs: 13/40 | Available: 48 | Scheduled: 95/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 22 completed at 749.97
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 33 completed at 777.65
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 12 completed at 818.17
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 31 completed at 876.60
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 13 completed at 971.13
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 34 completed at 1002.62
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 15 completed at 1035.13
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 23 completed at 1043.55
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 26 completed at 1098.17
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 30 completed at 1176.29
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 2 completed at 1253.47
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 36 completed at 1289.97
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 37 completed at 1419.13
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 3 completed at 1526.34
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 27 completed at 1639.24
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 29 completed at 1671.20
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 32 completed at 1640.99
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 39 completed at 1654.79
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 14 completed at 1668.50
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 1 completed at 1754.39
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 16 completed at 1803.11
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | Iter  200 | Time: 1791.73 | Jobs: 34/40 | Available:  8 | Scheduled: 195/224
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 28 completed at 1816.84
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 6 completed at 1931.41
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 38 completed at 2005.04
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 35 completed at 2037.36
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 7 completed at 2042.16
+14:11:56 | INFO    | MCPRMSEnvironment         | Job 18 completed at 2084.50
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | ✅ All jobs completed!
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | MCPRMSEnvironment         | ✅ Gantt Schedule Validation: PASSED
+14:11:56 | INFO    | EnhancedMCPScheduler[DYNAMIC_SLACK] | ✅ DYNAMIC_SLACK COMPLETED: 224/224 ops (100.0%) in 0.03s
+14:11:56 | INFO    | Experiment                | ✅ DYNAMIC_SLACK: 100.0% completion, 24.1% utilization
+14:11:56 | INFO    | Experiment                | 
+🎨 Creating visualizations...
+14:11:56 | INFO    | PublicationQualityVisualizer | 🎨 Creating 45+ publication-quality visualizations...
+14:11:56 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:11:56 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:11:56 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp783eewz2.
+14:11:56 | INFO    | choreographer.browser_async | Opening browser.
+14:11:56 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpsfrt6s31.
+14:11:56 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpsfrt6s31
+14:11:57 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp783eewz2/index.html
+14:11:57 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:11:58 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:11:58 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:11:58 | INFO    | kaleido.kaleido           | Got 0A02
+14:11:58 | INFO    | kaleido._kaleido_tab      | Processing MCP_RMS_Enhanced_v51___Comprehensive_Performance_Dashboard.png
+14:11:58 | INFO    | kaleido._kaleido_tab      | Sending big command for MCP_RMS_Enhanced_v51___Comprehensive_Performance_Dashboard.png.
+14:11:58 | INFO    | kaleido._kaleido_tab      | Sent big command for MCP_RMS_Enhanced_v51___Comprehensive_Performance_Dashboard.png.
+14:11:58 | INFO    | kaleido.kaleido           | Reloading tab 0A02 before return.
+14:11:58 | INFO    | kaleido.kaleido           | Putting tab 0A02 back (queue size: 0).
+14:11:58 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:11:58 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:11:58 | INFO    | choreographer.browser_async | Closing browser.
+14:11:58 | INFO    | choreographer.browser_async | Closing browser.
+14:11:58 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:11:58 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:11:58 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:11:58 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:11:58 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:11:58 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:11:58 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:11:58 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:11:58 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:11:58 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:11:58 | INFO    | PublicationQualityVisualizer | 📊 01. Comprehensive Performance Dashboard → HTML & PNG
+14:11:58 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:11:58 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:11:58 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:11:58 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:11:58 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp0fugxz_x.
+14:11:58 | INFO    | choreographer.browser_async | Opening browser.
+14:11:58 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpx_246l0z.
+14:11:58 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpx_246l0z
+14:11:59 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp0fugxz_x/index.html
+14:11:59 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:11:59 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:11:59 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:11:59 | INFO    | kaleido.kaleido           | Got 2EAA
+14:11:59 | INFO    | kaleido._kaleido_tab      | Processing MCP_Methods_vs_Traditional_Approaches___Enhanced_Comparison.png
+14:11:59 | INFO    | kaleido._kaleido_tab      | Sending big command for MCP_Methods_vs_Traditional_Approaches___Enhanced_Comparison.png.
+14:12:00 | INFO    | kaleido._kaleido_tab      | Sent big command for MCP_Methods_vs_Traditional_Approaches___Enhanced_Comparison.png.
+14:12:00 | INFO    | kaleido.kaleido           | Reloading tab 2EAA before return.
+14:12:00 | INFO    | kaleido.kaleido           | Putting tab 2EAA back (queue size: 0).
+14:12:00 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:00 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:00 | INFO    | choreographer.browser_async | Closing browser.
+14:12:00 | INFO    | choreographer.browser_async | Closing browser.
+14:12:00 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:00 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:00 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:00 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:00 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:00 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:00 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:00 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:00 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:00 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:00 | INFO    | PublicationQualityVisualizer | 📊 02. MCP vs Others Detailed Comparison → HTML & PNG
+14:12:00 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:00 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:00 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpserw859s.
+14:12:00 | INFO    | choreographer.browser_async | Opening browser.
+14:12:00 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpztcuz_7e.
+14:12:00 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpztcuz_7e
+14:12:00 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpserw859s/index.html
+14:12:00 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:01 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:01 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:01 | INFO    | kaleido.kaleido           | Got A292
+14:12:01 | INFO    | kaleido._kaleido_tab      | Processing Algorithm_Category_Performance_Analysis.png
+14:12:01 | INFO    | kaleido._kaleido_tab      | Sending big command for Algorithm_Category_Performance_Analysis.png.
+14:12:01 | INFO    | kaleido._kaleido_tab      | Sent big command for Algorithm_Category_Performance_Analysis.png.
+14:12:01 | INFO    | kaleido.kaleido           | Reloading tab A292 before return.
+14:12:01 | INFO    | kaleido.kaleido           | Putting tab A292 back (queue size: 0).
+14:12:01 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:01 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:01 | INFO    | choreographer.browser_async | Closing browser.
+14:12:01 | INFO    | choreographer.browser_async | Closing browser.
+14:12:01 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:01 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:01 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:01 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:01 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:01 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:01 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:01 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:01 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:01 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:01 | INFO    | PublicationQualityVisualizer | 📊 03. Algorithm Category Analysis → HTML & PNG
+14:12:01 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:01 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:01 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:01 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:01 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:01 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:01 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp_pik83g2.
+14:12:01 | INFO    | choreographer.browser_async | Opening browser.
+14:12:01 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp78v7go7p.
+14:12:01 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp78v7go7p
+14:12:02 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp_pik83g2/index.html
+14:12:02 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:04 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:04 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:04 | INFO    | kaleido.kaleido           | Got E37E
+14:12:04 | INFO    | kaleido._kaleido_tab      | Processing Multi_Objective_Pareto_Frontier_Analysis.png
+14:12:04 | INFO    | kaleido._kaleido_tab      | Sending big command for Multi_Objective_Pareto_Frontier_Analysis.png.
+14:12:04 | INFO    | kaleido._kaleido_tab      | Sent big command for Multi_Objective_Pareto_Frontier_Analysis.png.
+14:12:04 | INFO    | kaleido.kaleido           | Reloading tab E37E before return.
+14:12:04 | INFO    | kaleido.kaleido           | Putting tab E37E back (queue size: 0).
+14:12:04 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:04 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:04 | INFO    | choreographer.browser_async | Closing browser.
+14:12:04 | INFO    | choreographer.browser_async | Closing browser.
+14:12:04 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:04 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:04 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:04 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:04 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:04 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:04 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:04 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:04 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:04 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:04 | INFO    | PublicationQualityVisualizer | 📊 04. Pareto Frontier Analysis → HTML & PNG
+14:12:04 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:04 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:04 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpudj9f6zz.
+14:12:04 | INFO    | choreographer.browser_async | Opening browser.
+14:12:04 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmps5bq53ea.
+14:12:04 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmps5bq53ea
+14:12:05 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpudj9f6zz/index.html
+14:12:05 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:05 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:05 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:05 | INFO    | kaleido.kaleido           | Got 0F7D
+14:12:05 | INFO    | kaleido._kaleido_tab      | Processing Algorithm_Dominance_Matrix.png
+14:12:05 | INFO    | kaleido._kaleido_tab      | Sending big command for Algorithm_Dominance_Matrix.png.
+14:12:05 | INFO    | kaleido._kaleido_tab      | Sent big command for Algorithm_Dominance_Matrix.png.
+14:12:05 | INFO    | kaleido.kaleido           | Reloading tab 0F7D before return.
+14:12:06 | INFO    | kaleido.kaleido           | Putting tab 0F7D back (queue size: 0).
+14:12:06 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:06 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:06 | INFO    | choreographer.browser_async | Closing browser.
+14:12:06 | INFO    | choreographer.browser_async | Closing browser.
+14:12:06 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:06 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:06 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:06 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:06 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:06 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:06 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:06 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:06 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:06 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:06 | INFO    | PublicationQualityVisualizer | 📊 05. Algorithm Dominance Matrix → HTML & PNG
+14:12:06 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:06 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:06 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:06 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:06 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:06 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:06 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp7vfqitmf.
+14:12:06 | INFO    | choreographer.browser_async | Opening browser.
+14:12:06 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpvdzonner.
+14:12:06 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpvdzonner
+14:12:06 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp7vfqitmf/index.html
+14:12:06 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:07 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:07 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:07 | INFO    | kaleido.kaleido           | Got 1A7B
+14:12:07 | INFO    | kaleido._kaleido_tab      | Processing Normalized_Performance_Heatmap_Higher_is_Better.png
+14:12:07 | INFO    | kaleido._kaleido_tab      | Sending big command for Normalized_Performance_Heatmap_Higher_is_Better.png.
+14:12:07 | INFO    | kaleido._kaleido_tab      | Sent big command for Normalized_Performance_Heatmap_Higher_is_Better.png.
+14:12:07 | INFO    | kaleido.kaleido           | Reloading tab 1A7B before return.
+14:12:07 | INFO    | kaleido.kaleido           | Putting tab 1A7B back (queue size: 0).
+14:12:07 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:07 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:07 | INFO    | choreographer.browser_async | Closing browser.
+14:12:07 | INFO    | choreographer.browser_async | Closing browser.
+14:12:07 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:07 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:07 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:07 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:07 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:07 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:07 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:07 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:07 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:07 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:07 | INFO    | PublicationQualityVisualizer | 📊 06. Normalized Performance Heatmap → HTML & PNG
+14:12:07 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:07 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:07 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp9bbzvey4.
+14:12:07 | INFO    | choreographer.browser_async | Opening browser.
+14:12:07 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpxcpymv9y.
+14:12:07 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpxcpymv9y
+14:12:08 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp9bbzvey4/index.html
+14:12:08 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:08 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:08 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:08 | INFO    | kaleido.kaleido           | Got 8269
+14:12:08 | INFO    | kaleido._kaleido_tab      | Processing Normalized_Performance_Radar___Top_5_Algorithms.png
+14:12:08 | INFO    | kaleido._kaleido_tab      | Sending big command for Normalized_Performance_Radar___Top_5_Algorithms.png.
+14:12:09 | INFO    | kaleido._kaleido_tab      | Sent big command for Normalized_Performance_Radar___Top_5_Algorithms.png.
+14:12:09 | INFO    | kaleido.kaleido           | Reloading tab 8269 before return.
+14:12:09 | INFO    | kaleido.kaleido           | Putting tab 8269 back (queue size: 0).
+14:12:09 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:09 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:09 | INFO    | choreographer.browser_async | Closing browser.
+14:12:09 | INFO    | choreographer.browser_async | Closing browser.
+14:12:09 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:09 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:09 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:09 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:09 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:09 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:09 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:09 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:09 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:09 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:09 | INFO    | PublicationQualityVisualizer | 📊 07. Normalized Performance Radar → HTML & PNG
+14:12:09 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:09 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:09 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp4wd_a762.
+14:12:09 | INFO    | choreographer.browser_async | Opening browser.
+14:12:09 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpefrnbvdm.
+14:12:09 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpefrnbvdm
+14:12:09 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp4wd_a762/index.html
+14:12:09 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:10 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:10 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:10 | INFO    | kaleido.kaleido           | Got 2426
+14:12:10 | INFO    | kaleido._kaleido_tab      | Processing Efficiency_Frontier_Performance_vs_Cost.png
+14:12:10 | INFO    | kaleido._kaleido_tab      | Sending big command for Efficiency_Frontier_Performance_vs_Cost.png.
+14:12:10 | INFO    | kaleido._kaleido_tab      | Sent big command for Efficiency_Frontier_Performance_vs_Cost.png.
+14:12:10 | INFO    | kaleido.kaleido           | Reloading tab 2426 before return.
+14:12:10 | INFO    | kaleido.kaleido           | Putting tab 2426 back (queue size: 0).
+14:12:10 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:10 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:10 | INFO    | choreographer.browser_async | Closing browser.
+14:12:10 | INFO    | choreographer.browser_async | Closing browser.
+14:12:10 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:10 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:10 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:10 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:10 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:10 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:10 | INFO    | PublicationQualityVisualizer | 📊 08. Efficiency Frontier → HTML & PNG
+14:12:10 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:10 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:10 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:10 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:10 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp5hq2pz1m.
+14:12:10 | INFO    | choreographer.browser_async | Opening browser.
+14:12:10 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpasrot1pj.
+14:12:10 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpasrot1pj
+14:12:11 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp5hq2pz1m/index.html
+14:12:11 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:12 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:12 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:12 | INFO    | kaleido.kaleido           | Got C78E
+14:12:12 | INFO    | kaleido._kaleido_tab      | Processing Multi_Criteria_Decision_Analysis_MCDA_Ranking.png
+14:12:12 | INFO    | kaleido._kaleido_tab      | Sending big command for Multi_Criteria_Decision_Analysis_MCDA_Ranking.png.
+14:12:12 | INFO    | kaleido._kaleido_tab      | Sent big command for Multi_Criteria_Decision_Analysis_MCDA_Ranking.png.
+14:12:12 | INFO    | kaleido.kaleido           | Reloading tab C78E before return.
+14:12:12 | INFO    | kaleido.kaleido           | Putting tab C78E back (queue size: 0).
+14:12:12 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:12 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:12 | INFO    | choreographer.browser_async | Closing browser.
+14:12:12 | INFO    | choreographer.browser_async | Closing browser.
+14:12:12 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:12 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:12 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:12 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:12 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:12 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:12 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:12 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:12 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:12 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:12 | INFO    | PublicationQualityVisualizer | 📊 09. Multi-Criteria Ranking → HTML & PNG
+14:12:12 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:12 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:12 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmptuf_e0ge.
+14:12:12 | INFO    | choreographer.browser_async | Opening browser.
+14:12:12 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmplhabn5mw.
+14:12:12 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmplhabn5mw
+14:12:12 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmptuf_e0ge/index.html
+14:12:12 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:13 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:13 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:13 | INFO    | kaleido.kaleido           | Got D51D
+14:12:13 | INFO    | kaleido._kaleido_tab      | Processing Performance_Metric_Distributions.png
+14:12:13 | INFO    | kaleido._kaleido_tab      | Sending big command for Performance_Metric_Distributions.png.
+14:12:13 | INFO    | kaleido._kaleido_tab      | Sent big command for Performance_Metric_Distributions.png.
+14:12:13 | INFO    | kaleido.kaleido           | Reloading tab D51D before return.
+14:12:13 | INFO    | kaleido.kaleido           | Putting tab D51D back (queue size: 0).
+14:12:13 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:13 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:13 | INFO    | choreographer.browser_async | Closing browser.
+14:12:13 | INFO    | choreographer.browser_async | Closing browser.
+14:12:13 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:13 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:13 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:13 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:13 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:13 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:13 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:13 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:13 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:13 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:13 | INFO    | PublicationQualityVisualizer | 📊 10. Performance Distributions → HTML & PNG
+14:12:13 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:13 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:13 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:13 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:14 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:14 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:14 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpp2kla1gz.
+14:12:14 | INFO    | choreographer.browser_async | Opening browser.
+14:12:14 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmphaatvlyd.
+14:12:14 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmphaatvlyd
+14:12:14 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpp2kla1gz/index.html
+14:12:14 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:15 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:15 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:15 | INFO    | kaleido.kaleido           | Got D2B3
+14:12:15 | INFO    | kaleido._kaleido_tab      | Processing Production_Schedule___MCP_INTELLIGENT_V2.png
+14:12:15 | INFO    | kaleido._kaleido_tab      | Sending big command for Production_Schedule___MCP_INTELLIGENT_V2.png.
+14:12:15 | INFO    | kaleido._kaleido_tab      | Sent big command for Production_Schedule___MCP_INTELLIGENT_V2.png.
+14:12:15 | INFO    | kaleido.kaleido           | Reloading tab D2B3 before return.
+14:12:15 | INFO    | kaleido.kaleido           | Putting tab D2B3 back (queue size: 0).
+14:12:15 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:15 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:15 | INFO    | choreographer.browser_async | Closing browser.
+14:12:15 | INFO    | choreographer.browser_async | Closing browser.
+14:12:15 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:15 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:15 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:15 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:15 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:15 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:15 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:15 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:15 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:15 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:15 | INFO    | PublicationQualityVisualizer | 📊 11. Enhanced Gantt Chart → HTML & PNG
+14:12:15 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:15 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:15 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:15 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:15 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpz17pdpkc.
+14:12:15 | INFO    | choreographer.browser_async | Opening browser.
+14:12:15 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmprpeje_67.
+14:12:15 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmprpeje_67
+14:12:16 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpz17pdpkc/index.html
+14:12:16 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:16 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:16 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:16 | INFO    | kaleido.kaleido           | Got D528
+14:12:16 | INFO    | kaleido._kaleido_tab      | Processing Gantt_Validation_Summary.png
+14:12:16 | INFO    | kaleido._kaleido_tab      | Sending big command for Gantt_Validation_Summary.png.
+14:12:17 | INFO    | kaleido._kaleido_tab      | Sent big command for Gantt_Validation_Summary.png.
+14:12:17 | INFO    | kaleido.kaleido           | Reloading tab D528 before return.
+14:12:17 | INFO    | kaleido.kaleido           | Putting tab D528 back (queue size: 0).
+14:12:17 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:17 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:17 | INFO    | choreographer.browser_async | Closing browser.
+14:12:17 | INFO    | choreographer.browser_async | Closing browser.
+14:12:17 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:17 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:17 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:17 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:17 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:17 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:17 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:17 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:17 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:17 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:17 | INFO    | PublicationQualityVisualizer | 📊 12. Gantt Validation Summary → HTML & PNG
+14:12:17 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:17 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:17 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp9lhdpmrs.
+14:12:17 | INFO    | choreographer.browser_async | Opening browser.
+14:12:17 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp2v2itz0o.
+14:12:17 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp2v2itz0o
+14:12:17 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp9lhdpmrs/index.html
+14:12:17 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:18 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:18 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:18 | INFO    | kaleido.kaleido           | Got A5B3
+14:12:18 | INFO    | kaleido._kaleido_tab      | Processing Machine_Utilization_Timeline___MCP_INTELLIGENT_V2.png
+14:12:18 | INFO    | kaleido._kaleido_tab      | Sending big command for Machine_Utilization_Timeline___MCP_INTELLIGENT_V2.png.
+14:12:18 | INFO    | kaleido._kaleido_tab      | Sent big command for Machine_Utilization_Timeline___MCP_INTELLIGENT_V2.png.
+14:12:18 | INFO    | kaleido.kaleido           | Reloading tab A5B3 before return.
+14:12:18 | INFO    | kaleido.kaleido           | Putting tab A5B3 back (queue size: 0).
+14:12:18 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:18 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:18 | INFO    | choreographer.browser_async | Closing browser.
+14:12:18 | INFO    | choreographer.browser_async | Closing browser.
+14:12:18 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:18 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:18 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:18 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:18 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:18 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:18 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:18 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:18 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:18 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:18 | INFO    | PublicationQualityVisualizer | 📊 13. Utilization Timeline → HTML & PNG
+14:12:18 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:18 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:18 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpkstve_zg.
+14:12:18 | INFO    | choreographer.browser_async | Opening browser.
+14:12:18 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpajoh_hbx.
+14:12:18 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpajoh_hbx
+14:12:19 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpkstve_zg/index.html
+14:12:19 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:20 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:20 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:20 | INFO    | kaleido.kaleido           | Got 4411
+14:12:20 | INFO    | kaleido._kaleido_tab      | Processing Reconfiguration_Impact_Analysis.png
+14:12:20 | INFO    | kaleido._kaleido_tab      | Sending big command for Reconfiguration_Impact_Analysis.png.
+14:12:20 | INFO    | kaleido._kaleido_tab      | Sent big command for Reconfiguration_Impact_Analysis.png.
+14:12:20 | INFO    | kaleido.kaleido           | Reloading tab 4411 before return.
+14:12:20 | INFO    | kaleido.kaleido           | Putting tab 4411 back (queue size: 0).
+14:12:20 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:20 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:20 | INFO    | choreographer.browser_async | Closing browser.
+14:12:20 | INFO    | choreographer.browser_async | Closing browser.
+14:12:20 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:20 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:20 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:20 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:20 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:20 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:20 | INFO    | PublicationQualityVisualizer | 📊 14. Reconfiguration Impact → HTML & PNG
+14:12:20 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:20 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:20 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:20 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:20 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpqofpugt1.
+14:12:20 | INFO    | choreographer.browser_async | Opening browser.
+14:12:20 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp40vwm0nk.
+14:12:20 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp40vwm0nk
+14:12:21 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpqofpugt1/index.html
+14:12:21 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:21 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:21 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:21 | INFO    | kaleido.kaleido           | Got D3C3
+14:12:21 | INFO    | kaleido._kaleido_tab      | Processing Setup_Efficiency_Comparison.png
+14:12:21 | INFO    | kaleido._kaleido_tab      | Sending big command for Setup_Efficiency_Comparison.png.
+14:12:22 | INFO    | kaleido._kaleido_tab      | Sent big command for Setup_Efficiency_Comparison.png.
+14:12:22 | INFO    | kaleido.kaleido           | Reloading tab D3C3 before return.
+14:12:22 | INFO    | kaleido.kaleido           | Putting tab D3C3 back (queue size: 0).
+14:12:22 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:22 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:22 | INFO    | choreographer.browser_async | Closing browser.
+14:12:22 | INFO    | choreographer.browser_async | Closing browser.
+14:12:22 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:22 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:22 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:22 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:22 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:22 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:22 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:22 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:22 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:22 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:22 | INFO    | PublicationQualityVisualizer | 📊 15. Setup Efficiency → HTML & PNG
+14:12:22 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:22 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:22 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpwhdfaz7n.
+14:12:22 | INFO    | choreographer.browser_async | Opening browser.
+14:12:22 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpub6q1o7g.
+14:12:22 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpub6q1o7g
+14:12:22 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpwhdfaz7n/index.html
+14:12:22 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:23 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:23 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:23 | INFO    | kaleido.kaleido           | Got 6F74
+14:12:23 | INFO    | kaleido._kaleido_tab      | Processing Energy_Efficiency_Landscape.png
+14:12:23 | INFO    | kaleido._kaleido_tab      | Sending big command for Energy_Efficiency_Landscape.png.
+14:12:23 | INFO    | kaleido._kaleido_tab      | Sent big command for Energy_Efficiency_Landscape.png.
+14:12:23 | INFO    | kaleido.kaleido           | Reloading tab 6F74 before return.
+14:12:23 | INFO    | kaleido.kaleido           | Putting tab 6F74 back (queue size: 0).
+14:12:23 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:23 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:23 | INFO    | choreographer.browser_async | Closing browser.
+14:12:23 | INFO    | choreographer.browser_async | Closing browser.
+14:12:23 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:23 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:23 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:23 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:23 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:23 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:23 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:23 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:23 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:23 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:23 | INFO    | PublicationQualityVisualizer | 📊 16. Energy Efficiency Landscape → HTML & PNG
+14:12:23 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:23 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:23 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:23 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:23 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:23 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:23 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpdywnnyxv.
+14:12:23 | INFO    | choreographer.browser_async | Opening browser.
+14:12:23 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpvk9gk_mn.
+14:12:23 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpvk9gk_mn
+14:12:24 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpdywnnyxv/index.html
+14:12:24 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:25 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:25 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:25 | INFO    | kaleido.kaleido           | Got 4130
+14:12:25 | INFO    | kaleido._kaleido_tab      | Processing Energy_vs_Performance_Tradeoffs.png
+14:12:25 | INFO    | kaleido._kaleido_tab      | Sending big command for Energy_vs_Performance_Tradeoffs.png.
+14:12:25 | INFO    | kaleido._kaleido_tab      | Sent big command for Energy_vs_Performance_Tradeoffs.png.
+14:12:25 | INFO    | kaleido.kaleido           | Reloading tab 4130 before return.
+14:12:25 | INFO    | kaleido.kaleido           | Putting tab 4130 back (queue size: 0).
+14:12:25 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:25 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:25 | INFO    | choreographer.browser_async | Closing browser.
+14:12:25 | INFO    | choreographer.browser_async | Closing browser.
+14:12:25 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:25 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:25 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:25 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:25 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:25 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:25 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:25 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:25 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:25 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:25 | INFO    | PublicationQualityVisualizer | 📊 17. Energy vs Performance Tradeoffs → HTML & PNG
+14:12:25 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:25 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:25 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpqriw76bo.
+14:12:25 | INFO    | choreographer.browser_async | Opening browser.
+14:12:25 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp9rk32r5z.
+14:12:25 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp9rk32r5z
+14:12:26 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpqriw76bo/index.html
+14:12:26 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:27 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:27 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:27 | INFO    | kaleido.kaleido           | Got 1497
+14:12:27 | INFO    | kaleido._kaleido_tab      | Processing Resource_Balance_Analysis.png
+14:12:27 | INFO    | kaleido._kaleido_tab      | Sending big command for Resource_Balance_Analysis.png.
+14:12:27 | INFO    | kaleido._kaleido_tab      | Sent big command for Resource_Balance_Analysis.png.
+14:12:27 | INFO    | kaleido.kaleido           | Reloading tab 1497 before return.
+14:12:27 | INFO    | kaleido.kaleido           | Putting tab 1497 back (queue size: 0).
+14:12:27 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:27 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:27 | INFO    | choreographer.browser_async | Closing browser.
+14:12:27 | INFO    | choreographer.browser_async | Closing browser.
+14:12:27 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:27 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:27 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:27 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:27 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:27 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:27 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:27 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:27 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:27 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:27 | INFO    | PublicationQualityVisualizer | 📊 18. Resource Balance Analysis → HTML & PNG
+14:12:27 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:27 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:27 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmptgzihw1p.
+14:12:27 | INFO    | choreographer.browser_async | Opening browser.
+14:12:27 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmplnr3dytp.
+14:12:27 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmplnr3dytp
+14:12:28 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmptgzihw1p/index.html
+14:12:28 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:28 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:28 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:28 | INFO    | kaleido.kaleido           | Got 7619
+14:12:28 | INFO    | kaleido._kaleido_tab      | Processing Statistical_Summary.png
+14:12:28 | INFO    | kaleido._kaleido_tab      | Sending big command for Statistical_Summary.png.
+14:12:28 | INFO    | kaleido._kaleido_tab      | Sent big command for Statistical_Summary.png.
+14:12:28 | INFO    | kaleido.kaleido           | Reloading tab 7619 before return.
+14:12:29 | INFO    | kaleido.kaleido           | Putting tab 7619 back (queue size: 0).
+14:12:29 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:29 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:29 | INFO    | choreographer.browser_async | Closing browser.
+14:12:29 | INFO    | choreographer.browser_async | Closing browser.
+14:12:29 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:29 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:29 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:29 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:29 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:29 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:29 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:29 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:29 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:29 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:29 | INFO    | PublicationQualityVisualizer | 📊 19. Statistical Summary → HTML & PNG
+14:12:29 | INFO    | choreographer.browsers.chromium | Chromium init'ed with kwargs {}
+14:12:29 | INFO    | choreographer.browsers.chromium | Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+14:12:29 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpbb2dbgk4.
+14:12:29 | INFO    | choreographer.browser_async | Opening browser.
+14:12:29 | INFO    | choreographer.utils._tmpfile | Temp directory created: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp69f2e3nv.
+14:12:29 | INFO    | choreographer.browsers.chromium | Temporary directory at: /var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmp69f2e3nv
+14:12:29 | INFO    | kaleido.kaleido           | Conforming 1 to file:///var/folders/gq/ysdycy7x3956tc7lc9g6_6fr0000gn/T/tmpbb2dbgk4/index.html
+14:12:29 | INFO    | kaleido.kaleido           | Waiting on all navigates
+14:12:30 | INFO    | kaleido.kaleido           | All navigates done, putting them all in queue.
+14:12:30 | INFO    | kaleido.kaleido           | Getting tab from queue (has 1)
+14:12:30 | INFO    | kaleido.kaleido           | Got 54B8
+14:12:30 | INFO    | kaleido._kaleido_tab      | Processing Research_Impact_Summary.png
+14:12:30 | INFO    | kaleido._kaleido_tab      | Sending big command for Research_Impact_Summary.png.
+14:12:30 | INFO    | kaleido._kaleido_tab      | Sent big command for Research_Impact_Summary.png.
+14:12:30 | INFO    | kaleido.kaleido           | Reloading tab 54B8 before return.
+14:12:30 | INFO    | kaleido.kaleido           | Putting tab 54B8 back (queue size: 0).
+14:12:30 | INFO    | kaleido.kaleido           | Waiting for all cleanups to finish.
+14:12:30 | INFO    | kaleido.kaleido           | Exiting Kaleido
+14:12:30 | INFO    | choreographer.browser_async | Closing browser.
+14:12:30 | INFO    | choreographer.browser_async | Closing browser.
+14:12:30 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:30 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:30 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:30 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:30 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:30 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:30 | INFO    | choreographer.utils._tmpfile | TemporaryDirectory.cleanup() worked.
+14:12:30 | INFO    | choreographer.utils._tmpfile | shutil.rmtree worked.
+14:12:30 | INFO    | kaleido.kaleido           | Cancelling tasks.
+14:12:30 | INFO    | kaleido.kaleido           | Exiting Kaleido/Choreo
+14:12:30 | INFO    | PublicationQualityVisualizer | 📊 20. Research Impact Summary → HTML & PNG
+14:12:30 | INFO    | PublicationQualityVisualizer | ✅ Created 20 publication-quality visualizations
+14:12:30 | INFO    | Experiment                | 
+🔬 Performing validation...
+14:12:30 | INFO    | ComprehensiveValidator    | 🔬 Performing comprehensive validation...
+14:12:30 | INFO    | ComprehensiveValidator    | ✅ Validation report saved: runs/mcp_demo/validation_report.json
+14:12:30 | INFO    | Experiment                | 
+📄 Generating report...
+14:12:30 | INFO    | Experiment                | 
+================================================================================
+14:12:30 | INFO    | Experiment                | 📊 RESULTS SUMMARY
+14:12:30 | INFO    | Experiment                | ================================================================================
+14:12:30 | INFO    | Experiment                | MCP_INTELLIGENT_V2       :  100.0% | Util= 29.3% | Gantt=✅
+14:12:30 | INFO    | Experiment                | MCP_ADAPTIVE_V2          :  100.0% | Util= 29.3% | Gantt=✅
+14:12:30 | INFO    | Experiment                | MCP_ENERGY_OPTIMIZED     :  100.0% | Util= 40.3% | Gantt=✅
+14:12:30 | INFO    | Experiment                | MCP_BOTTLENECK_AWARE     :  100.0% | Util= 40.4% | Gantt=✅
+14:12:30 | INFO    | Experiment                | EDD                      :  100.0% | Util= 26.6% | Gantt=✅
+14:12:30 | INFO    | Experiment                | SPT                      :  100.0% | Util= 23.5% | Gantt=✅
+14:12:30 | INFO    | Experiment                | FIFO                     :  100.0% | Util= 28.2% | Gantt=✅
+14:12:30 | INFO    | Experiment                | LPT                      :  100.0% | Util= 32.6% | Gantt=✅
+14:12:30 | INFO    | Experiment                | CRITICAL_RATIO           :  100.0% | Util= 27.8% | Gantt=✅
+14:12:30 | INFO    | Experiment                | APPARENT_TARDINESS_COST  :  100.0% | Util= 25.6% | Gantt=✅
+14:12:30 | INFO    | Experiment                | COVERT                   :  100.0% | Util= 27.1% | Gantt=✅
+14:12:30 | INFO    | Experiment                | SLACK_PER_OPERATION      :  100.0% | Util= 24.1% | Gantt=✅
+14:12:30 | INFO    | Experiment                | WEIGHTED_SPT             :  100.0% | Util= 28.4% | Gantt=✅
+14:12:30 | INFO    | Experiment                | LEAST_SLACK              :  100.0% | Util= 24.1% | Gantt=✅
+14:12:30 | INFO    | Experiment                | MODIFIED_DUE_DATE        :  100.0% | Util= 30.0% | Gantt=✅
+14:12:30 | INFO    | Experiment                | DYNAMIC_SLACK            :  100.0% | Util= 24.1% | Gantt=✅
+14:12:30 | INFO    | Experiment                | 
+🏆 BEST: MCP_INTELLIGENT_V2 with 100.0% completion
