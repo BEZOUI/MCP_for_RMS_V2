@@ -279,7 +279,8 @@ class MCPRMSEnvironment:
         self.gantt_validator = GanttValidator(self.logger)
         self.system_metrics_history: List[Dict] = []
         self.bottleneck_analysis: Dict[str, float] = {}
-        
+        self.pending_completions: List[Tuple[float, int, int, int, Job, Operation]] = []
+
         self._initialize_machines(num_configs_per_machine)
     
     def _initialize_machines(self, num_configs: int):
@@ -586,7 +587,7 @@ class MCPRMSEnvironment:
             processing_time = machine.get_processing_time(operation)
             completion_time = start_time + processing_time
             
-            operation.state = OperationState.COMPLETED
+            operation.state = OperationState.SCHEDULED
             operation.assigned_machine = machine_id
             operation.assigned_config = machine.current_config.config_id
             operation.start_time = start_time
@@ -634,17 +635,13 @@ class MCPRMSEnvironment:
                 'total_cost': machine_option['total_cost']
             })
             
-            if job.is_completed:
-                job.completion_time = max(op.completion_time for op in job.operations 
-                                        if op.completion_time is not None)
-                job.flowtime = job.completion_time - job.arrival_time
-                job.tardiness = max(0, job.completion_time - job.due_date)
-                job.lateness = job.completion_time - job.due_date
-                
-                self.logger.info(f"Job {job.job_id} completed at {job.completion_time:.2f}")
-            
             self.current_time = max(self.current_time, start_time)
-            
+
+            heapq.heappush(
+                self.pending_completions,
+                (completion_time, machine_id, job.job_id, operation.op_id, job, operation)
+            )
+
             return {
                 'success': True,
                 'start_time': start_time,
@@ -658,11 +655,44 @@ class MCPRMSEnvironment:
         except Exception as e:
             self.logger.error(f"Error in operation assignment: {str(e)}")
             return {'success': False, 'error': str(e)}
-    
+
+    def process_pending_completions(self, up_to_time: Optional[float] = None):
+        """Finalize scheduled operations whose completion time has elapsed."""
+        if up_to_time is None:
+            up_to_time = self.current_time
+
+        tolerance = 1e-9
+
+        while self.pending_completions and self.pending_completions[0][0] <= up_to_time + tolerance:
+            completion_time, machine_id, job_id, op_id, job, operation = heapq.heappop(self.pending_completions)
+
+            self.current_time = max(self.current_time, completion_time)
+
+            if operation.state == OperationState.COMPLETED:
+                continue
+
+            operation.state = OperationState.COMPLETED
+
+            if job.is_completed:
+                job.completion_time = max(
+                    op.completion_time for op in job.operations if op.completion_time is not None
+                )
+                job.flowtime = job.completion_time - job.arrival_time
+                job.tardiness = max(0, job.completion_time - job.due_date)
+                job.lateness = job.completion_time - job.due_date
+                self.logger.info(f"Job {job.job_id} completed at {job.completion_time:.2f}")
+
+            machine = self.machines[machine_id]
+            if machine.next_available_time <= completion_time + tolerance:
+                machine.state = MachineState.IDLE
+
     def validate_schedule_integrity(self) -> Dict[str, Any]:
         return self.gantt_validator.validate_schedule(self.schedule_events)
     
     def compute_comprehensive_metrics(self) -> Dict:
+        # Finalize any operations that should have completed
+        self.process_pending_completions(float('inf'))
+
         completed_jobs = [j for j in self.jobs if j.is_completed]
         all_operations = [op for job in self.jobs for op in job.operations]
         completed_operations = [op for op in all_operations if op.state == OperationState.COMPLETED]
@@ -737,7 +767,8 @@ class MCPRMSEnvironment:
         self.current_time = 0.0
         self.schedule_events = []
         self.system_metrics_history = []
-        
+        self.pending_completions = []
+
         for machine in self.machines:
             machine.state = MachineState.IDLE
             machine.next_available_time = 0.0
@@ -875,11 +906,14 @@ class EnhancedMCPScheduler:
         
         while iteration < max_iterations and (time.time() - start_time) < time_limit:
             iteration += 1
-            
+
+            # Finalize operations that have completed by current time
+            self.env.process_pending_completions(self.env.current_time)
+
             # 🆕 Enhanced adaptive learning for V2 methods
             if self.heuristic in ["MCP_ADAPTIVE_V2", "MCP_INTELLIGENT_V2"] and iteration % 30 == 0:
                 self._enhanced_adapt_weights()
-            
+
             available_ops = self.env.mcp_get_available_operations()
             completed_jobs = sum(1 for j in self.env.jobs if j.is_completed)
             
@@ -924,6 +958,7 @@ class EnhancedMCPScheduler:
             else:
                 self._advance_time()
         
+        self.env.process_pending_completions(float('inf'))
         validation_result = self.env.validate_schedule_integrity()
         
         elapsed_time = time.time() - start_time
@@ -1377,7 +1412,9 @@ class EnhancedMCPScheduler:
             self.env.current_time = next_time
         else:
             self.env.current_time += 1.0
-    
+
+        self.env.process_pending_completions(self.env.current_time)
+
     def _resolve_stagnation(self) -> bool:
         old_time = self.env.current_time
         self._advance_time()
