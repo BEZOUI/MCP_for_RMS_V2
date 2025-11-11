@@ -810,11 +810,11 @@ class EnhancedMCPScheduler:
         "MCP_ADAPTIVE_V2",           # 🆕 Improved adaptive learning with momentum
         "MCP_ENERGY_OPTIMIZED",
         "MCP_BOTTLENECK_AWARE",
-        
-        # Classical
+
+        # Due-date and processing-time dispatching rules
         "EDD", "SPT", "FIFO", "LPT",
-        
-        # Literature
+
+        # Published benchmark heuristics
         "CRITICAL_RATIO", "APPARENT_TARDINESS_COST", "COVERT", "SLACK_PER_OPERATION",
         "WEIGHTED_SPT", "LEAST_SLACK", "MODIFIED_DUE_DATE", "DYNAMIC_SLACK"
     ]
@@ -1061,9 +1061,9 @@ class EnhancedMCPScheduler:
         elif self.heuristic.startswith("MCP_"):
             return self._mcp_strategy(available_ops)
         elif self.heuristic in ["EDD", "SPT", "FIFO", "LPT"]:
-            return self._classical_strategy(available_ops)
+            return self._dispatching_rule_strategy(available_ops)
         else:
-            return self._literature_based_strategy(available_ops)
+            return self._benchmark_strategy(available_ops)
     
     def _enhanced_mcp_strategy(self, available_ops: List[Dict]) -> bool:
         """🆕 Enhanced MCP strategy with lookahead and better scoring"""
@@ -1222,7 +1222,7 @@ class EnhancedMCPScheduler:
             return self._execute_assignment(op_info, machine_option, best_score)
         
         return False
-    
+
     def _calculate_mcp_score(self, op_info: Dict, machine_option: Dict) -> float:
         """Standard MCP scoring"""
         score = 0.0
@@ -1250,9 +1250,9 @@ class EnhancedMCPScheduler:
         score += self.weights.get('quality', 0) * quality_match * 5
         
         return score
-    
-    def _literature_based_strategy(self, available_ops: List[Dict]) -> bool:
-        """Literature-based strategies"""
+
+    def _benchmark_strategy(self, available_ops: List[Dict]) -> bool:
+        """Benchmark heuristics from flow-shop scheduling research"""
         if self.heuristic == "CRITICAL_RATIO":
             def cr_key(op):
                 remaining_work = op['remaining_work']
@@ -1330,9 +1330,9 @@ class EnhancedMCPScheduler:
                     return True
         
         return False
-    
-    def _classical_strategy(self, available_ops: List[Dict]) -> bool:
-        """Classical dispatching rules"""
+
+    def _dispatching_rule_strategy(self, available_ops: List[Dict]) -> bool:
+        """Dispatching rules based on due dates and processing times"""
         if self.heuristic == "EDD":
             sorted_ops = sorted(available_ops, key=lambda x: (x['due_date'], -x['priority']))
         elif self.heuristic == "SPT":
@@ -1453,8 +1453,8 @@ class PublicationQualityVisualizer:
         
         self.colors = {
             'mcp': '#2E86AB',
-            'classical': '#A23B72',
-            'literature': '#F18F01',
+            'dispatching': '#A23B72',
+            'benchmark': '#F18F01',
             'primary': px.colors.qualitative.Set3,
             'sequential': px.colors.sequential.Viridis,
             'diverging': px.colors.diverging.RdBu
@@ -1467,25 +1467,30 @@ class PublicationQualityVisualizer:
         self.logger.info("🎨 Creating 45+ publication-quality visualizations...")
         
         mcp_methods = [h for h in results.keys() if h.startswith('MCP_')]
-        classical_methods = [h for h in results.keys() if h in ['EDD', 'SPT', 'FIFO', 'LPT']]
-        literature_methods = [h for h in results.keys() if h not in mcp_methods + classical_methods]
+        dispatching_methods = [h for h in results.keys() if h in ['EDD', 'SPT', 'FIFO', 'LPT']]
+        benchmark_methods = [h for h in results.keys() if h not in mcp_methods + dispatching_methods]
+        method_categories = {
+            h: ('mcp' if h in mcp_methods else 'dispatching' if h in dispatching_methods else 'benchmark')
+            for h in results.keys()
+        }
         
         best_heuristic = max(results.keys(), key=lambda h: results[h]['completion_rate'])
         best_result = results[best_heuristic]
         
         try:
             # Core visualizations
-            self.create_comprehensive_performance_dashboard(results, mcp_methods)
-            self.create_mcp_vs_others_comparison(results, mcp_methods, classical_methods + literature_methods)
-            self.create_algorithm_category_analysis(results, mcp_methods, classical_methods, literature_methods)
+            self.create_comprehensive_performance_dashboard(results, method_categories)
+            self.create_mcp_vs_others_comparison(results, mcp_methods, dispatching_methods + benchmark_methods)
+            self.create_algorithm_category_analysis(results, mcp_methods, dispatching_methods, benchmark_methods)
             self.create_pareto_frontier_analysis(results)
             self.create_dominance_matrix(results, mcp_methods)
             self.create_performance_heatmap(results)
-            self.create_normalized_performance_radar(results, mcp_methods)
-            self.create_efficiency_frontier(results)
+            self.create_normalized_performance_radar(results, mcp_methods, method_categories)
+            self.create_efficiency_frontier(results, method_categories)
             self.create_multi_criteria_ranking(results)
             self.create_performance_distribution(results)
-            
+            self.create_waiting_time_profile(results, method_categories)
+
             # Gantt and schedule analysis
             if best_result.get('schedule_events'):
                 self.create_enhanced_gantt_chart(best_result['schedule_events'], best_heuristic)
@@ -1493,11 +1498,11 @@ class PublicationQualityVisualizer:
                 self.create_machine_utilization_timeline(best_result, best_heuristic)
                 self.create_reconfiguration_impact_analysis(results)
                 self.create_setup_efficiency_comparison(results)
-            
+
             # Energy and resource analysis
             self.create_energy_efficiency_landscape(results)
-            self.create_energy_vs_performance_tradeoffs(results, mcp_methods)
-            self.create_resource_balance_analysis(results)
+            self.create_energy_vs_performance_tradeoffs(results, mcp_methods, method_categories)
+            self.create_resource_balance_analysis(results, method_categories)
             
             # Statistical analysis
             self.create_statistical_significance_analysis(results)
@@ -1542,7 +1547,7 @@ class PublicationQualityVisualizer:
         except Exception as e:
             self.logger.error(f"Error saving plot {filename}: {str(e)}")
     
-    def create_comprehensive_performance_dashboard(self, results: Dict[str, Dict], mcp_methods: List[str]):
+    def create_comprehensive_performance_dashboard(self, results: Dict[str, Dict], method_categories: Dict[str, str]):
         """Comprehensive performance dashboard"""
         fig = make_subplots(
             rows=3, cols=4,
@@ -1557,10 +1562,11 @@ class PublicationQualityVisualizer:
                 [{"type": "bar"}, {"type": "bar"}, {"type": "bar"}, {"type": "polar"}]
             ]
         )
-        
+
         heuristics = list(results.keys())
-        colors = [self.colors['mcp'] if h in mcp_methods else self.colors['classical'] for h in heuristics]
-        
+        colors = [self.colors[method_categories[h]] for h in heuristics]
+        mcp_methods = [h for h, cat in method_categories.items() if cat == 'mcp']
+
         metrics = [
             ([r['completion_rate'] * 100 for r in results.values()], "Completion Rate"),
             ([r['utilization'] * 100 for r in results.values()], "Utilization"),
@@ -1585,10 +1591,18 @@ class PublicationQualityVisualizer:
         
         if mcp_methods:
             mcp_avg = np.mean([results[h]['completion_rate'] for h in mcp_methods]) * 100
-            others_avg = np.mean([results[h]['completion_rate'] for h in heuristics if h not in mcp_methods]) * 100
-            fig.add_trace(go.Bar(x=['MCP Methods', 'Other Methods'], y=[mcp_avg, others_avg],
-                                marker_color=[self.colors['mcp'], self.colors['classical']], showlegend=False), row=3, col=3)
-        
+            other_methods = [h for h in heuristics if h not in mcp_methods]
+            if other_methods:
+                others_avg = np.mean([results[h]['completion_rate'] for h in other_methods]) * 100
+            else:
+                others_avg = 0
+            fig.add_trace(go.Bar(
+                x=['MCP Methods', 'Other Methods'],
+                y=[mcp_avg, others_avg],
+                marker_color=[self.colors['mcp'], self.colors['benchmark']],
+                showlegend=False
+            ), row=3, col=3)
+
         if mcp_methods:
             best_mcp = max(mcp_methods, key=lambda h: results[h]['completion_rate'])
             radar_metrics = ['Completion', 'Utilization', 'Energy Eff', 'Quality', 'Speed']
@@ -1641,10 +1655,13 @@ class PublicationQualityVisualizer:
         ]
         
         for metric, title, row, col in metrics_list:
-            fig.add_trace(go.Bar(x=['MCP Methods', 'Other Methods'], 
-                                y=[mcp_metrics[metric], other_metrics[metric]],
-                                marker_color=[self.colors['mcp'], self.colors['classical']],
-                                showlegend=False, name=title), row=row, col=col)
+            fig.add_trace(go.Bar(
+                x=['MCP Methods', 'Dispatching & Benchmark'],
+                y=[mcp_metrics[metric], other_metrics[metric]],
+                marker_color=[self.colors['mcp'], self.colors['benchmark']],
+                showlegend=False,
+                name=title
+            ), row=row, col=col)
         
         improvements = []
         improvement_labels = []
@@ -1659,33 +1676,52 @@ class PublicationQualityVisualizer:
         
         fig.add_trace(go.Bar(x=improvement_labels, y=improvements, marker_color=self.colors['mcp'], showlegend=False), row=2, col=3)
         
-        fig.update_layout(title="MCP Methods vs Traditional Approaches - Enhanced Comparison", height=800)
-        self._save_plot(fig, "mcp_vs_others", "MCP vs Others Detailed Comparison")
+        fig.update_layout(title="MCP Methods vs Dispatching & Benchmark Heuristics", height=800)
+        self._save_plot(fig, "mcp_vs_others", "MCP vs Dispatching and Benchmark Heuristics")
     
     # Additional visualization methods (abbreviated for space)
-    def create_algorithm_category_analysis(self, results, mcp_methods, classical_methods, literature_methods):
-        """Algorithm category analysis"""
+    def create_algorithm_category_analysis(self, results, mcp_methods, dispatching_methods, benchmark_methods):
+        """Algorithm category analysis with explicit method listings"""
         categories = []
-        for category_name, methods in [('MCP', mcp_methods), ('Classical', classical_methods), ('Literature', literature_methods)]:
+        colors_cat = []
+        category_specs = [
+            ("Enhanced MCP", mcp_methods, self.colors['mcp']),
+            ("Dispatching Rules (EDD, SPT, FIFO, LPT)", dispatching_methods, self.colors['dispatching']),
+            ("Benchmark Heuristics (CR, ATC, COVERT, DS)", benchmark_methods, self.colors['benchmark'])
+        ]
+
+        for category_name, methods, color in category_specs:
             if methods:
                 categories.append({
                     'Category': category_name,
                     'Avg Completion': np.mean([results[h]['completion_rate'] for h in methods]) * 100,
                     'Avg Utilization': np.mean([results[h]['utilization'] for h in methods]) * 100,
                     'Avg Makespan': np.mean([results[h]['makespan'] for h in methods]),
-                    'Count': len(methods)
+                    'Count': len(methods),
+                    'Methods': ', '.join(methods)
                 })
-        
+                colors_cat.append(color)
+
+        if not categories:
+            return
+
         df = pd.DataFrame(categories)
-        fig = make_subplots(rows=2, cols=2, subplot_titles=["Avg Completion", "Avg Utilization", "Avg Makespan", "Distribution"],
-                           specs=[[{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "pie"}]])
-        
-        colors_cat = [self.colors['mcp'], self.colors['classical'], self.colors['literature']]
-        fig.add_trace(go.Bar(x=df['Category'], y=df['Avg Completion'], marker_color=colors_cat, showlegend=False), row=1, col=1)
-        fig.add_trace(go.Bar(x=df['Category'], y=df['Avg Utilization'], marker_color=colors_cat, showlegend=False), row=1, col=2)
-        fig.add_trace(go.Bar(x=df['Category'], y=df['Avg Makespan'], marker_color=colors_cat, showlegend=False), row=2, col=1)
-        fig.add_trace(go.Pie(labels=df['Category'], values=df['Count'], marker_colors=colors_cat), row=2, col=2)
-        
+        fig = make_subplots(
+            rows=2,
+            cols=2,
+            subplot_titles=["Avg Completion", "Avg Utilization", "Avg Makespan", "Distribution"],
+            specs=[[{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "pie"}]]
+        )
+
+        fig.add_trace(go.Bar(x=df['Category'], y=df['Avg Completion'], marker_color=colors_cat,
+                             text=df['Methods'], hovertemplate="%{x}<br>Avg Completion: %{y:.2f}%<br>%{text}"), row=1, col=1)
+        fig.add_trace(go.Bar(x=df['Category'], y=df['Avg Utilization'], marker_color=colors_cat,
+                             text=df['Methods'], hovertemplate="%{x}<br>Avg Utilization: %{y:.2f}%<br>%{text}"), row=1, col=2)
+        fig.add_trace(go.Bar(x=df['Category'], y=df['Avg Makespan'], marker_color=colors_cat,
+                             text=df['Methods'], hovertemplate="%{x}<br>Makespan: %{y:.2f}<br>%{text}"), row=2, col=1)
+        fig.add_trace(go.Pie(labels=df['Category'], values=df['Count'], marker_colors=colors_cat,
+                             hovertext=df['Methods'], hoverinfo='label+value+percent+text'), row=2, col=2)
+
         fig.update_layout(title="Algorithm Category Performance Analysis", height=800)
         self._save_plot(fig, "category_analysis", "Algorithm Category Analysis")
     
@@ -1702,23 +1738,60 @@ class PublicationQualityVisualizer:
             })
         
         df = pd.DataFrame(objectives)
-        fig = make_subplots(rows=1, cols=2, subplot_titles=["Makespan vs Energy", "Completion vs Utilization"])
-        
+        fig = make_subplots(
+            rows=1,
+            cols=3,
+            subplot_titles=[
+                "Makespan vs Energy",
+                "Completion vs Utilization",
+                "3D Pareto: Makespan vs Energy vs Utilization"
+            ],
+            specs=[[{"type": "scatter"}, {"type": "scatter"}, {"type": "scene"}]]
+        )
+
         fig.add_trace(go.Scatter(x=df['makespan'], y=df['energy'], mode='markers+text',
                                 text=df['heuristic'], textposition="top center",
                                 marker=dict(size=12, color=df['completion_rate'], colorscale='Viridis', showscale=True,
                                           colorbar=dict(title="Completion %", x=0.45)), showlegend=False), row=1, col=1)
-        
+
         fig.add_trace(go.Scatter(x=df['completion_rate'], y=df['utilization'], mode='markers+text',
                                 text=df['heuristic'], textposition="top center",
                                 marker=dict(size=12, color=df['energy'], colorscale='Viridis_r', showscale=True,
                                           colorbar=dict(title="Energy", x=1.02)), showlegend=False), row=1, col=2)
-        
+
+        fig.add_trace(
+            go.Scatter3d(
+                x=df['makespan'],
+                y=df['energy'],
+                z=df['utilization'],
+                text=df['heuristic'],
+                mode='markers+text',
+                textposition='top center',
+                marker=dict(
+                    size=6,
+                    color=df['completion_rate'],
+                    colorscale='Viridis',
+                    showscale=False,
+                    opacity=0.85
+                )
+            ),
+            row=1,
+            col=3
+        )
+
         fig.update_xaxes(title_text="Makespan", row=1, col=1)
         fig.update_yaxes(title_text="Total Energy", row=1, col=1)
         fig.update_xaxes(title_text="Completion Rate (%)", row=1, col=2)
         fig.update_yaxes(title_text="Utilization (%)", row=1, col=2)
-        fig.update_layout(title="Multi-Objective Pareto Frontier Analysis", height=600)
+        fig.update_layout(
+            title="Multi-Objective Pareto Frontier Analysis",
+            height=650,
+            scene=dict(
+                xaxis_title='Makespan',
+                yaxis_title='Energy Consumption',
+                zaxis_title='Utilization (%)'
+            )
+        )
         self._save_plot(fig, "pareto_frontier", "Pareto Frontier Analysis")
     
     def create_dominance_matrix(self, results, mcp_methods):
@@ -1773,7 +1846,7 @@ class PublicationQualityVisualizer:
         fig.update_layout(title="Normalized Performance Heatmap (Higher is Better)", xaxis_title="Algorithm", yaxis_title="Metric", height=600)
         self._save_plot(fig, "performance_heatmap", "Normalized Performance Heatmap")
     
-    def create_normalized_performance_radar(self, results, mcp_methods):
+    def create_normalized_performance_radar(self, results, mcp_methods, method_categories):
         """Normalized performance radar"""
         fig = go.Figure()
         
@@ -1800,25 +1873,37 @@ class PublicationQualityVisualizer:
         top_5 = sorted(results.keys(), key=lambda h: results[h]['completion_rate'], reverse=True)[:5]
         
         for h in top_5:
-            color = self.colors['mcp'] if h in mcp_methods else self.colors['literature']
+            color = self.colors[method_categories.get(h, 'benchmark')]
             fig.add_trace(go.Scatterpolar(r=normalized_results[h], theta=categories, fill='toself', name=h, line_color=color))
         
         fig.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
                          title="Normalized Performance Radar - Top 5 Algorithms", height=600)
         self._save_plot(fig, "normalized_radar", "Normalized Performance Radar")
     
-    def create_efficiency_frontier(self, results):
+    def create_efficiency_frontier(self, results, method_categories):
         """Efficiency frontier"""
         efficiency_data = []
         for h, r in results.items():
             efficiency_score = (r['completion_rate'] * r['utilization']) / max(r['makespan'], 1)
             cost_score = r['total_energy'] + (r['total_reconfigurations'] * 10)
-            efficiency_data.append({'heuristic': h, 'efficiency': efficiency_score * 100, 'cost': cost_score, 'completion': r['completion_rate'] * 100})
-        
+            efficiency_data.append({
+                'heuristic': h,
+                'efficiency': efficiency_score * 100,
+                'cost': cost_score,
+                'completion': r['completion_rate'] * 100,
+                'color': self.colors[method_categories.get(h, 'benchmark')]
+            })
+
         df = pd.DataFrame(efficiency_data)
-        fig = go.Figure(data=go.Scatter(x=df['cost'], y=df['efficiency'], mode='markers+text', text=df['heuristic'], textposition="top center",
-                                       marker=dict(size=15, color=df['completion'], colorscale='Viridis', showscale=True, colorbar=dict(title="Completion %"))))
-        
+        fig = go.Figure(data=go.Scatter(
+            x=df['cost'],
+            y=df['efficiency'],
+            mode='markers+text',
+            text=df['heuristic'],
+            textposition="top center",
+            marker=dict(size=15, color=df['color'], showscale=False)
+        ))
+
         fig.update_layout(title="Efficiency Frontier: Performance vs Cost", xaxis_title="Total Cost", yaxis_title="Efficiency Score", height=600)
         self._save_plot(fig, "efficiency_frontier", "Efficiency Frontier")
     
@@ -1856,15 +1941,55 @@ class PublicationQualityVisualizer:
             'Makespan': [r['makespan'] for r in results.values()],
             'Energy': [r['total_energy'] for r in results.values()]
         }
-        
+
         fig = make_subplots(rows=2, cols=2, subplot_titles=list(metrics_data.keys()))
         positions = [(1,1), (1,2), (2,1), (2,2)]
-        
+
         for (metric_name, values), (row, col) in zip(metrics_data.items(), positions):
             fig.add_trace(go.Box(y=values, name=metric_name, boxmean='sd', showlegend=False), row=row, col=col)
-        
+
         fig.update_layout(title="Performance Metric Distributions", height=800)
         self._save_plot(fig, "performance_distribution", "Performance Distributions")
+
+    def create_waiting_time_profile(self, results, method_categories):
+        """Detailed waiting time distributions for each heuristic"""
+        waiting_records = []
+        for heuristic, result in results.items():
+            for decision in result.get('decision_history', []):
+                waiting_time = decision.get('waiting_time')
+                if waiting_time is not None:
+                    waiting_records.append({
+                        'Heuristic': heuristic,
+                        'Waiting Time': waiting_time,
+                        'Category': method_categories.get(heuristic, 'benchmark')
+                    })
+
+        if not waiting_records:
+            return
+
+        df = pd.DataFrame(waiting_records)
+        fig = go.Figure()
+
+        for heuristic in sorted(df['Heuristic'].unique()):
+            subset = df[df['Heuristic'] == heuristic]
+            color = self.colors[method_categories.get(heuristic, 'benchmark')]
+            fig.add_trace(go.Violin(
+                y=subset['Waiting Time'],
+                name=heuristic,
+                box_visible=True,
+                meanline_visible=True,
+                line_color=color,
+                fillcolor=color,
+                opacity=0.6,
+                points='suspectedoutliers'
+            ))
+
+        fig.update_layout(
+            title="Waiting Time Distribution by Heuristic",
+            yaxis_title="Waiting Time",
+            height=700
+        )
+        self._save_plot(fig, "waiting_time_profile", "Waiting Time Distribution by Heuristic")
     
     def create_enhanced_gantt_chart(self, schedule_events, heuristic_name):
         """Enhanced Gantt chart"""
@@ -2016,32 +2141,38 @@ class PublicationQualityVisualizer:
         fig.update_layout(title="Energy Efficiency Landscape", height=600)
         self._save_plot(fig, "energy_landscape", "Energy Efficiency Landscape")
     
-    def create_energy_vs_performance_tradeoffs(self, results, mcp_methods):
+    def create_energy_vs_performance_tradeoffs(self, results, mcp_methods, method_categories):
         """Energy vs performance tradeoffs"""
         fig = go.Figure()
-        
+
         for h, r in results.items():
-            color = self.colors['mcp'] if h in mcp_methods else self.colors['literature']
+            color = self.colors[method_categories.get(h, 'benchmark')]
             fig.add_trace(go.Scatter(x=[r['total_energy']], y=[r['completion_rate'] * 100],
                                     mode='markers+text', text=[h], marker=dict(size=15, color=color), name=h))
-        
+
         fig.update_layout(title="Energy vs Performance Tradeoffs", xaxis_title="Total Energy", yaxis_title="Completion Rate (%)", height=600)
         self._save_plot(fig, "energy_tradeoffs", "Energy vs Performance Tradeoffs")
-    
-    def create_resource_balance_analysis(self, results):
+
+    def create_resource_balance_analysis(self, results, method_categories):
         """Resource balance"""
         balance_data = []
         for h, r in results.items():
             balance_data.append({
                 'heuristic': h,
                 'utilization_balance': r['utilization_balance'] * 100,
-                'utilization': r['utilization'] * 100
+                'utilization': r['utilization'] * 100,
+                'color': self.colors[method_categories.get(h, 'benchmark')]
             })
-        
+
         df = pd.DataFrame(balance_data)
-        fig = go.Figure(data=go.Scatter(x=df['utilization'], y=df['utilization_balance'], mode='markers+text',
-                                       text=df['heuristic'], marker=dict(size=12)))
-        
+        fig = go.Figure(data=go.Scatter(
+            x=df['utilization'],
+            y=df['utilization_balance'],
+            mode='markers+text',
+            text=df['heuristic'],
+            marker=dict(size=12, color=df['color'])
+        ))
+
         fig.update_layout(title="Resource Balance Analysis", xaxis_title="Utilization (%)", yaxis_title="Balance Score (%)", height=600)
         self._save_plot(fig, "resource_balance", "Resource Balance Analysis")
     
